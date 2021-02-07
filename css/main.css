@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.video-view {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  height: 100%;
+}
+
+canvas {
+  visibility: hidden;
+}
+
+button {
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: transparent;
+}
+.hidden {
+  display: none;
+}
